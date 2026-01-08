@@ -1,0 +1,10 @@
+build/
+*.db
+*.o
+*.a
+*.so
+Clipsmith_autogen/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
