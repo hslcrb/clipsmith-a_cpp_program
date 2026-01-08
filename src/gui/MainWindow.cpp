@@ -102,4 +102,3 @@ void MainWindow::showWindow() {
 void MainWindow::quitApp() {
     QApplication::quit();
 }
- Lands
