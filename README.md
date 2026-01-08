@@ -49,6 +49,14 @@ Simply execute the one-click build script:
 ./run.sh
 ```
 
+### 3. Create & Install .deb Package (패키지 생성 및 설치)
+To create a native Debian package and install it:
+```bash
+chmod +x make_deb.sh
+./make_deb.sh
+```
+This will generate `clipsmith_1.0.0_amd64.deb` and offer to install it for you.
+
 ---
 
 ## 📄 LICENSE
