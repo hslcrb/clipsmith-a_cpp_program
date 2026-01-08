@@ -4,6 +4,7 @@
 
 # <img src="resources/logo.png" width="40" height="40" align="center"> Clipsmith 🛠️
 ### The Ultimate Smart Clipboard Manager for Linux
+**Version: v1.0 | Released: 2026-01-08**  
 **Copyright (c) 2008-2026 Rheehose (Rhee Creative)**
 
 ---
