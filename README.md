@@ -1,4 +1,5 @@
 # Clipsmith 🛠️ - Smart Clipboard Manager for Linux
+Copyright (c) 2008-2026 Rheehose (Rhee Creative)
 
 Clipsmith is a lightweight, intelligent clipboard manager built with C++ and Qt6, specifically optimized for development and casual workflows on Linux environments like Linux Mint (Cinnamon).
 
