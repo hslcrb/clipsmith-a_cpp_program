@@ -200,6 +200,30 @@ Clipsmith_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clipsmith_autogen.dir/build.make CMakeFiles/Clipsmith_autogen.dir/build
 .PHONY : Clipsmith_autogen/fast
 
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.o: Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o
+.PHONY : Clipsmith_autogen/3YJK5W5UP7/qrc_resources.o
+
+# target to build an object file
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clipsmith.dir/build.make CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o
+.PHONY : Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o
+
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.i: Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.i
+.PHONY : Clipsmith_autogen/3YJK5W5UP7/qrc_resources.i
+
+# target to preprocess a source file
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clipsmith.dir/build.make CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.i
+.PHONY : Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.i
+
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.s: Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.s
+.PHONY : Clipsmith_autogen/3YJK5W5UP7/qrc_resources.s
+
+# target to generate assembly for a file
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Clipsmith.dir/build.make CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.s
+.PHONY : Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.s
+
 Clipsmith_autogen/mocs_compilation.o: Clipsmith_autogen/mocs_compilation.cpp.o
 .PHONY : Clipsmith_autogen/mocs_compilation.o
 
@@ -359,6 +383,9 @@ help:
 	@echo "... Clipsmith_autogen"
 	@echo "... Clipsmith_autogen_timestamp_deps"
 	@echo "... Clipsmith"
+	@echo "... Clipsmith_autogen/3YJK5W5UP7/qrc_resources.o"
+	@echo "... Clipsmith_autogen/3YJK5W5UP7/qrc_resources.i"
+	@echo "... Clipsmith_autogen/3YJK5W5UP7/qrc_resources.s"
 	@echo "... Clipsmith_autogen/mocs_compilation.o"
 	@echo "... Clipsmith_autogen/mocs_compilation.i"
 	@echo "... Clipsmith_autogen/mocs_compilation.s"

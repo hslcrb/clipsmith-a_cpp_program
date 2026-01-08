@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Clipsmith_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Clipsmith_autogen.dir/ParseCache.txt"
   "Clipsmith_autogen"
+  "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
+  "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d"
   "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o"
@@ -16,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o.d"
   "Clipsmith"
   "Clipsmith.pdb"
+  "Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp"
   "Clipsmith_autogen/mocs_compilation.cpp"
   "Clipsmith_autogen/timestamp"
 )

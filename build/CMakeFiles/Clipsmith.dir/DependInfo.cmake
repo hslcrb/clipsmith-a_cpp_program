@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "Clipsmith_autogen/timestamp" "custom" "Clipsmith_autogen/deps"
+  "/home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp" "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o" "gcc" "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d"
   "/home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/mocs_compilation.cpp" "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o.d"
   "/home/rheehose/문서/rheeworks/clipsmith/src/core/ClipboardMonitor.cpp" "CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o" "gcc" "CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o.d"
   "/home/rheehose/문서/rheeworks/clipsmith/src/core/DatabaseManager.cpp" "CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o" "gcc" "CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o.d"

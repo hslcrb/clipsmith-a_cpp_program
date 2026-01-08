@@ -76,10 +76,17 @@ Clipsmith_autogen/timestamp: CMakeFiles/Clipsmith.dir/compiler_depend.ts
 	/usr/bin/cmake -E cmake_autogen /home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles/Clipsmith_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/timestamp
 
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/rheehose/문서/rheeworks/clipsmith/resources/resources.qrc
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: CMakeFiles/Clipsmith_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/rheehose/문서/rheeworks/clipsmith/resources/logo.png
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: /usr/lib/qt6/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources/resources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles/Clipsmith_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json 
+
 CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o: CMakeFiles/Clipsmith.dir/flags.make
 CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o: Clipsmith_autogen/mocs_compilation.cpp
 CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o: CMakeFiles/Clipsmith.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o -c /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/mocs_compilation.cpp
 
 CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.i: cmake_force
@@ -93,7 +100,7 @@ CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/Clipsmith.dir/src/main.cpp.o: CMakeFiles/Clipsmith.dir/flags.make
 CMakeFiles/Clipsmith.dir/src/main.cpp.o: /home/rheehose/문서/rheeworks/clipsmith/src/main.cpp
 CMakeFiles/Clipsmith.dir/src/main.cpp.o: CMakeFiles/Clipsmith.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Clipsmith.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Clipsmith.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clipsmith.dir/src/main.cpp.o -MF CMakeFiles/Clipsmith.dir/src/main.cpp.o.d -o CMakeFiles/Clipsmith.dir/src/main.cpp.o -c /home/rheehose/문서/rheeworks/clipsmith/src/main.cpp
 
 CMakeFiles/Clipsmith.dir/src/main.cpp.i: cmake_force
@@ -107,7 +114,7 @@ CMakeFiles/Clipsmith.dir/src/main.cpp.s: cmake_force
 CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o: CMakeFiles/Clipsmith.dir/flags.make
 CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o: /home/rheehose/문서/rheeworks/clipsmith/src/core/ClipboardMonitor.cpp
 CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o: CMakeFiles/Clipsmith.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o -MF CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o.d -o CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o -c /home/rheehose/문서/rheeworks/clipsmith/src/core/ClipboardMonitor.cpp
 
 CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.i: cmake_force
@@ -121,7 +128,7 @@ CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.s: cmake_force
 CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o: CMakeFiles/Clipsmith.dir/flags.make
 CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o: /home/rheehose/문서/rheeworks/clipsmith/src/core/DatabaseManager.cpp
 CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o: CMakeFiles/Clipsmith.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o -MF CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o.d -o CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o -c /home/rheehose/문서/rheeworks/clipsmith/src/core/DatabaseManager.cpp
 
 CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.i: cmake_force
@@ -135,7 +142,7 @@ CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.s: cmake_force
 CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o: CMakeFiles/Clipsmith.dir/flags.make
 CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o: /home/rheehose/문서/rheeworks/clipsmith/src/gui/MainWindow.cpp
 CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o: CMakeFiles/Clipsmith.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o -MF CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o.d -o CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o -c /home/rheehose/문서/rheeworks/clipsmith/src/gui/MainWindow.cpp
 
 CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.i: cmake_force
@@ -149,7 +156,7 @@ CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.s: cmake_force
 CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o: CMakeFiles/Clipsmith.dir/flags.make
 CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o: /home/rheehose/문서/rheeworks/clipsmith/src/plugins/TextProcessor.cpp
 CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o: CMakeFiles/Clipsmith.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o -MF CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o.d -o CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o -c /home/rheehose/문서/rheeworks/clipsmith/src/plugins/TextProcessor.cpp
 
 CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.i: cmake_force
@@ -160,6 +167,20 @@ CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rheehose/문서/rheeworks/clipsmith/src/plugins/TextProcessor.cpp -o CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.s
 
+CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o: CMakeFiles/Clipsmith.dir/flags.make
+CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o: Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp
+CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o: CMakeFiles/Clipsmith.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o -MF CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d -o CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o -c /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp
+
+CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp > CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.i
+
+CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp -o CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.s
+
 # Object files for target Clipsmith
 Clipsmith_OBJECTS = \
 "CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o" \
@@ -167,7 +188,8 @@ Clipsmith_OBJECTS = \
 "CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o" \
 "CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o" \
 "CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o" \
-"CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o"
+"CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o" \
+"CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
 
 # External object files for target Clipsmith
 Clipsmith_EXTERNAL_OBJECTS =
@@ -178,6 +200,7 @@ Clipsmith: CMakeFiles/Clipsmith.dir/src/core/ClipboardMonitor.cpp.o
 Clipsmith: CMakeFiles/Clipsmith.dir/src/core/DatabaseManager.cpp.o
 Clipsmith: CMakeFiles/Clipsmith.dir/src/gui/MainWindow.cpp.o
 Clipsmith: CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o
+Clipsmith: CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o
 Clipsmith: CMakeFiles/Clipsmith.dir/build.make
 Clipsmith: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 Clipsmith: /usr/lib/x86_64-linux-gnu/libQt6Sql.so.6.4.2
@@ -186,7 +209,7 @@ Clipsmith: /usr/lib/x86_64-linux-gnu/libGLX.so
 Clipsmith: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Clipsmith: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 Clipsmith: CMakeFiles/Clipsmith.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Clipsmith"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Clipsmith"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Clipsmith.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -197,6 +220,7 @@ CMakeFiles/Clipsmith.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/Clipsmith.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/Clipsmith.dir/clean
 
+CMakeFiles/Clipsmith.dir/depend: Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp
 CMakeFiles/Clipsmith.dir/depend: Clipsmith_autogen/timestamp
 	cd /home/rheehose/문서/rheeworks/clipsmith/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rheehose/문서/rheeworks/clipsmith /home/rheehose/문서/rheeworks/clipsmith /home/rheehose/문서/rheeworks/clipsmith/build /home/rheehose/문서/rheeworks/clipsmith/build /home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles/Clipsmith.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Clipsmith.dir/depend

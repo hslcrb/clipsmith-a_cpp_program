@@ -25,6 +25,7 @@ add_executable(Clipsmith
     src/core/DatabaseManager.cpp
     src/gui/MainWindow.cpp
     src/plugins/TextProcessor.cpp
+    resources/resources.qrc
 )
 
 target_link_libraries(Clipsmith PRIVATE ${QT_LIBRARIES})

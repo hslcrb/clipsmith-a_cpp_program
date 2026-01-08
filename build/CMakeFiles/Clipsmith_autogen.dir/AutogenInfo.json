@@ -167,7 +167,8 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlTargets.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlTargets-none.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake"
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake",
+		"/home/rheehose/\ubb38\uc11c/rheeworks/clipsmith/resources/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/rheehose/\ubb38\uc11c/rheeworks/clipsmith",
 	"DEP_FILE" : "/home/rheehose/\ubb38\uc11c/rheeworks/clipsmith/build/Clipsmith_autogen/deps",

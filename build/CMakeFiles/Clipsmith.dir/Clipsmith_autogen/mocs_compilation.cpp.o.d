@@ -408,11 +408,16 @@ CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QAction \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
  /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/MXUWEOXILK/../../../src/gui/../core/DatabaseManager.hpp \
- /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/MXUWEOXILK/../../../src/gui/../core/ClipboardMonitor.hpp
+ /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/MXUWEOXILK/../../../src/gui/../core/ClipboardMonitor.hpp \
+ /home/rheehose/문서/rheeworks/clipsmith/build/Clipsmith_autogen/MXUWEOXILK/../../../src/gui/../plugins/TextProcessor.hpp \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h

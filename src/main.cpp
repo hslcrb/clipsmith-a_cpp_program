@@ -13,10 +13,10 @@ int main(int argc, char *argv[])
     }
 
     QApplication::setQuitOnLastWindowClosed(false);
+    app.setWindowIcon(QIcon(":/logo.png"));
 
     MainWindow window;
-    // 초기에는 트레이 아이콘만 표시되도록 설정할 수 있습니다.
-    // window.show(); 
+    window.show(); 
 
     return app.exec();
 }
