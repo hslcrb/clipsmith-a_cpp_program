@@ -5,7 +5,7 @@
  * Glassmorphism 및 Frutiger Aero 미학이 적용된 세련된 사용자 환경을 구현합니다.
  * Implements a sophisticated user environment with Glassmorphism and Frutiger Aero aesthetics.
  * 
- * @author Rheehose (Rhee Creative)
+ * @author Rheehose (Rhee Creative) & Gemini 3 Flash
  * @date 2008-2026
  */
 
@@ -44,42 +44,41 @@ void MainWindow::setupUi() {
     mainLayout->setContentsMargins(15, 15, 15, 15);
     mainLayout->setSpacing(15);
 
-    // 검색 박스 스타일링 (Glassmorphism & Frutiger Aero)
-    // Search Box Styling
+    // 검색 박스 스타일링 (Ultra Glossy Glass)
     m_searchEdit = new QLineEdit(this);
     m_searchEdit->setPlaceholderText("검색어를 입력하세요... (Search here...)");
     m_searchEdit->setMinimumHeight(45);
     m_searchEdit->setStyleSheet(
         "QLineEdit { "
-        "  border: 1px solid rgba(255, 255, 255, 0.2); "
+        "  border: 1px solid rgba(255, 255, 255, 0.4); "
         "  border-radius: 12px; "
         "  padding: 10px 15px; "
-        "  background: rgba(255, 255, 255, 0.1); "
+        "  background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 0.3), stop:0.5 rgba(255, 255, 255, 0.1), stop:1 rgba(255, 255, 255, 0.2)); "
         "  color: white; "
         "  font-family: 'Segoe UI', system-ui; "
+        "  font-size: 14px; "
         "} "
         "QLineEdit:focus { "
-        "  border: 1px solid rgba(0, 120, 212, 0.8); "
-        "  background: rgba(255, 255, 255, 0.15); "
+        "  border: 2px solid rgba(255, 255, 255, 0.8); "
+        "  background: rgba(255, 255, 255, 0.2); "
         "}"
     );
     connect(m_searchEdit, &QLineEdit::textChanged, this, &MainWindow::onSearchChanged);
 
-    // 툴바 설정 (Glossy Glass Style)
-    // Toolbar configuration
+    // 툴바 설정 (High-Gloss Frutiger Style)
     m_toolBar = new QToolBar("Action Toolbar", this);
     m_toolBar->setIconSize(QSize(24, 24));
     m_toolBar->setStyleSheet(
         "QToolBar { "
-        "  background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 0.2), stop:1 rgba(255, 255, 255, 0.05)); "
-        "  border-radius: 12px; "
-        "  padding: 5px; "
-        "  spacing: 8px; "
-        "  border: 1px solid rgba(255, 255, 255, 0.1); "
+        "  background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 0.4), stop:0.2 rgba(255, 255, 255, 0.1), stop:0.5 rgba(0, 0, 0, 0.1), stop:1 rgba(255, 255, 255, 0.2)); "
+        "  border-radius: 15px; "
+        "  padding: 8px; "
+        "  spacing: 12px; "
+        "  border: 1px solid rgba(255, 255, 255, 0.3); "
         "} "
-        "QToolButton { color: white; border-radius: 8px; padding: 5px; } "
-        "QToolButton:hover { background: rgba(255, 255, 255, 0.2); } "
-        "QToolButton:disabled { color: rgba(255, 255, 255, 0.3); }"
+        "QToolButton { color: white; border-radius: 10px; padding: 6px 12px; font-weight: bold; } "
+        "QToolButton:hover { background: rgba(255, 255, 255, 0.3); border: 1px solid white; } "
+        "QToolButton:disabled { color: rgba(255, 255, 255, 0.2); }"
     );
 
     m_prettifyAction = m_toolBar->addAction("✨ JSON 정리 (Prettify)");
@@ -93,37 +92,53 @@ void MainWindow::setupUi() {
     m_decodeAction->setEnabled(false);
 
     // 신호 연결
-    // Signal connections
     connect(m_prettifyAction, &QAction::triggered, this, &MainWindow::actionPrettify);
     connect(m_decodeAction, &QAction::triggered, this, &MainWindow::actionBase64Decode);
     connect(m_cleanAction, &QAction::triggered, this, &MainWindow::actionCleanText);
     connect(m_copyAction, &QAction::triggered, this, &MainWindow::actionCopyItem);
     connect(m_deleteAction, &QAction::triggered, this, &MainWindow::actionDeleteItem);
 
-    // 히스토리 리스트 위젯 스타일링 (Glassmorphism List)
-    // History List Widget Styling
+    // 히스토리 리스트 위젯 스타일링 (Aero Glass List & Custom Scrollbar)
     m_historyList = new QListWidget(this);
     m_historyList->setStyleSheet(
         "QListWidget { "
-        "  background: rgba(0, 0, 0, 0.2); "
-        "  border: 1px solid rgba(255, 255, 255, 0.1); "
-        "  border-radius: 15px; "
-        "  color: #e0e0e0; "
+        "  background: rgba(255, 255, 255, 0.05); "
+        "  border: 1px solid rgba(255, 255, 255, 0.2); "
+        "  border-radius: 20px; "
+        "  color: #ffffff; "
         "  outline: none; "
-        "  padding: 5px; "
+        "  padding: 10px; "
         "} "
         "QListWidget::item { "
-        "  padding: 15px; "
-        "  border-bottom: 1px solid rgba(255, 255, 255, 0.05); "
-        "  border-radius: 10px; "
-        "  margin-bottom: 5px; "
-        "  font-size: 13px; "
+        "  padding: 18px; "
+        "  border-bottom: 1px solid rgba(255, 255, 255, 0.1); "
+        "  border-radius: 12px; "
+        "  margin-bottom: 8px; "
+        "  background: rgba(255, 255, 255, 0.03); "
         "} "
         "QListWidget::item:selected { "
-        "  background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 120, 212, 0.6), stop:1 rgba(0, 180, 255, 0.4)); "
+        "  background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 180, 255, 0.8), stop:1 rgba(0, 120, 212, 0.6)); "
+        "  border: 1px solid white; "
         "  color: white; "
         "} "
-        "QListWidget::item:hover { background: rgba(255, 255, 255, 0.05); }"
+        "QListWidget::item:hover { "
+        "  background: rgba(255, 255, 255, 0.15); "
+        "} "
+        "QScrollBar:vertical { "
+        "  border: none; "
+        "  background: rgba(255, 255, 255, 0.05); "
+        "  width: 10px; "
+        "  margin: 0px 0px 0px 0px; "
+        "  border-radius: 5px; "
+        "} "
+        "QScrollBar::handle:vertical { "
+        "  background: rgba(255, 255, 255, 0.3); "
+        "  min-height: 20px; "
+        "  border-radius: 5px; "
+        "} "
+        "QScrollBar::handle:vertical:hover { "
+        "  background: rgba(255, 255, 255, 0.5); "
+        "} "
     );
     connect(m_historyList, &QListWidget::itemDoubleClicked, this, &MainWindow::onItemDoubleClicked);
     connect(m_historyList, &QListWidget::itemSelectionChanged, this, &MainWindow::onSelectionChanged);
@@ -131,7 +146,7 @@ void MainWindow::setupUi() {
     // 하단 상태 표시줄
     // Bottom Status Label
     m_statusLabel = new QLabel("🎨 Clipsmith 시각적 프리미엄 엔진 준비됨 (Premium UI Loaded)", this);
-    m_statusLabel->setStyleSheet("color: rgba(255, 255, 255, 0.5); font-size: 11px; font-weight: bold;");
+    m_statusLabel->setStyleSheet("color: #ffffff; font-size: 11px; font-weight: bold;"); // 텍스트 흰색으로 수정 (Changed to white)
 
     mainLayout->addWidget(m_searchEdit);
     mainLayout->addWidget(m_toolBar);
@@ -146,6 +161,7 @@ void MainWindow::setupUi() {
     this->setStyleSheet(
         "QMainWindow { "
         "  background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #004b73, stop:0.5 #0078d4, stop:1 #00b4ff); "
+        "  color: #ffffff; " // 전체 텍스트 기본색 흰색 (Global text white)
         "} "
     );
 
