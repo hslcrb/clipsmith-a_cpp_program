@@ -622,6 +622,9 @@ Clipsmith_autogen/timestamp: /home/rheehose/문서/rheeworks/clipsmith/CMakeList
   /usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
   /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
 
+CMakeFiles/Clipsmith.dir/Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp.o: Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/Clipsmith.dir/Clipsmith_autogen/mocs_compilation.cpp.o: Clipsmith_autogen/mocs_compilation.cpp \
   /home/rheehose/문서/rheeworks/clipsmith/src/core/ClipboardMonitor.hpp \
   /home/rheehose/문서/rheeworks/clipsmith/src/core/DatabaseManager.hpp \
@@ -3239,6 +3242,8 @@ CMakeFiles/Clipsmith.dir/src/plugins/TextProcessor.cpp.o: /home/rheehose/문서/
 Clipsmith_autogen/PRMOGMWJPH/moc_ClipboardMonitor.cpp:
 
 Clipsmith_autogen/MXUWEOXILK/moc_MainWindow.cpp:
+
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp:
 
 /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake:
 

@@ -78,6 +78,7 @@ Clipsmith_autogen/timestamp: CMakeFiles/Clipsmith.dir/compiler_depend.ts
 
 Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/rheehose/문서/rheeworks/clipsmith/resources/resources.qrc
 Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: CMakeFiles/Clipsmith_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json
+Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/rheehose/문서/rheeworks/clipsmith/resources/banner.png
 Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: /home/rheehose/문서/rheeworks/clipsmith/resources/logo.png
 Clipsmith_autogen/3YJK5W5UP7/qrc_resources.cpp: /usr/lib/qt6/libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rheehose/문서/rheeworks/clipsmith/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources/resources.qrc"
