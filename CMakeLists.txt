@@ -32,5 +32,34 @@ target_link_libraries(Clipsmith PRIVATE ${QT_LIBRARIES})
 
 install(TARGETS Clipsmith
     BUNDLE DESTINATION .
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+    RUNTIME DESTINATION bin
 )
+
+# --- CPack Packaging Configuration ---
+set(CPACK_PACKAGE_NAME "Clipsmith")
+set(CPACK_PACKAGE_VENDOR "Rhee Creative")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Premium Smart Clipboard Manager for professionals")
+set(CPACK_PACKAGE_VERSION_MAJOR ${PROJECT_VERSION_MAJOR})
+set(CPACK_PACKAGE_VERSION_MINOR ${PROJECT_VERSION_MINOR})
+set(CPACK_PACKAGE_VERSION_PATCH ${PROJECT_VERSION_PATCH})
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
+
+# Windows Packager (.exe via NSIS)
+if(WIN32)
+    set(CPACK_GENERATOR "NSIS")
+    set(CPACK_NSIS_MODIFY_PATH ON)
+endif()
+
+# macOS Packager (.dmg)
+if(APPLE)
+    set(CPACK_GENERATOR "DragNDrop")
+endif()
+
+# Linux Packager (.deb, .tar.gz)
+if(UNIX AND NOT APPLE)
+    set(CPACK_GENERATOR "DEB;TGZ")
+    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Rheehose (Rhee Creative) & Gemini 3 Flash")
+    set(CPACK_DEBIAN_PACKAGE_DEPENDS "qt6-base-dev, libqt6sql6-sqlite")
+endif()
+
+include(CPack)

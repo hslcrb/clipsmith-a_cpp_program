@@ -49,19 +49,39 @@ Simply execute the one-click build script:
 ./run.sh
 ```
 
-### 3. Create & Install .deb Package (패키지 생성 및 설치)
-To create a native Debian package and install it:
+### 3. Cross-Platform Installation (윈도우, 맥, 리눅스 설치)
+
+Clipsmith supports multiple platforms. Use **CPack** to generate native installers:
+
+#### 🐧 Linux (.deb)
 ```bash
-chmod +x make_deb.sh
-./make_deb.sh
+./make_deb.sh  # RECOMMENDED: One-click script
+# OR
+cpack -G DEB
 ```
-This will generate `clipsmith_1.0.0_amd64.deb` and offer to install it for you.
+
+#### 🪟 Windows (.exe)
+Install [NSIS](https://nsis.sourceforge.io/) and run:
+```bash
+cmake -B build
+cmake --build build --config Release
+cd build
+cpack -G NSIS
+```
+
+#### 🍎 macOS (.dmg)
+```bash
+cmake -B build
+cmake --build build --config Release
+cd build
+cpack -G DragNDrop
+```
 
 ---
 
 ## 📄 LICENSE
 This project is licensed under the **MIT License**.
-본 프로젝트는 **MIT 라이선스**를 따릅니다. 제작자: **Rheehose (Rhee Creative)**
+본 프로젝트는 **MIT 라이선스**를 따릅니다. 제작자: **Rheehose (Rhee Creative) & Gemini 3 Flash**
 
 ---
 
